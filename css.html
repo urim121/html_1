@@ -1,0 +1,19 @@
+<style>
+  .circle {
+    /* . 해당하는 class만 stlye 지정 : 선택자 */
+    border-radius: 50px !important;
+    /* 반지름, !important 동순위 중복 기입시 가장 마지막 코드에 적용 */
+  }
+  .show{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+  }
+  [name=score] {
+    color: crimson;
+  }
+</style>
+<body>
+  <div class="circle show">abc</div>
+  <div name="score">def</div>
+</body>
